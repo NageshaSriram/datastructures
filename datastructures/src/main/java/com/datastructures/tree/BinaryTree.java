@@ -31,6 +31,7 @@ public class BinaryTree {
 		int[] arr = {1,2,3,4,5,6,7,8,9,10,11,12,13,14};
 		tree.tree1 = createBinaryTree(arr, tree.tree1, 0);
 		
+		
 		System.out.println("Tree1::");
 		tree.root.left.left = new Node(4);
 		System.out.print("Post Order::");
